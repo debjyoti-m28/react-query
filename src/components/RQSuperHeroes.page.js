@@ -10,7 +10,7 @@ export const RQSuperHeroesPage = () => {
   const { isLoading, data } = useQuery('super-heros', fetchSuperHeroes)
 
   if(isLoading){
-    return <h2>Loading...</h2>
+    return <h2>Loading... </h2>
   }
   console.log(data)
   return(
